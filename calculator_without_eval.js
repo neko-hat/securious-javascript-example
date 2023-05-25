@@ -15,7 +15,7 @@ const calculator = {
             case "*":
                 return num1 * num2;    
             case "/":
-                return num1 / num2;
+                return num1*1.0 / num2;
             case "&":
                 return num1 & num2;
             case "|":
